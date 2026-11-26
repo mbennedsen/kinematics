@@ -1,8 +1,11 @@
-Manuscript v60 — 20 November 2026
+Associated paper
 Conventional trend models may understate the current rate of global warming
+Mikkel Bennedsen and J. Eduardo Vera-Valdés
+
 3 main figures, 10 supplementary figures and 23 supplementary tables.
 Analysis inputs end in July/August 2026.
 
-SHA-256 of the reviewed LaTeX sources
-0414b14524339528db59ad537e1cff2c65a0130387733872dfe23f620728032c  main_v60_NCC.tex
-5daf4759d7929319abd7bbd1710c9607728dcfcdfa6024d22be4618ab2a62124  supplement_v60_NCC.tex
+The public preprint is cited as:
+The kinematics of global warming: Semiparametric analysis of warming level, rate, and acceleration
+https://doi.org/10.48550/arXiv.2608.18298
+

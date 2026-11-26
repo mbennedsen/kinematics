@@ -1,0 +1,2 @@
+# Retain original line endings for the scientific engines' byte-level checks.
+* -text

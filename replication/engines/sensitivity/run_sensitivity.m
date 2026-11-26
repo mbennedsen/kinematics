@@ -37,7 +37,7 @@ writetable(R,fullfile(out,'Summary.csv'));
 o=struct('datasets',{{name}},'rebaseData',true,'outputDir',fullfile(out,'velocity_rw'), ...
  'covariates',ref.covariates,'figure',struct('visible','off'));
 cached_empirical_fit(@estimate_velocity_rw_robustness,input,o,snapshot);
-% Alternative windows: point contrasts from the same corrected fitted path.
+% Alternative windows: point contrasts from the same fitted state-space path.
 z=E.pointEstimate.smoother.alphaSmooth;A=table();
 for year=[2010 2012 2014 2015 2016 2018 2020]
  i=find(t>=year,1);a=100*(z(2,end)-z(2,i))/(t(end)-t(i));
